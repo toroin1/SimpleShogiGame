@@ -40,10 +40,10 @@ public class GameBoard extends JPanel implements MouseListener,ConnectionWithGam
 					gameboard[i][j] = new nullPiece(); gameboard[i][j].setPosition(i, j); 
 				}
 			}
-//			for(int i=0;i<9;i++) {
-//				gameboard[i][2] = new pawnPiece();gameboard[i][2].setPosition(i, 2);gameboard[i][2].setPlayer(-1);
-//				gameboard[i][6] = new pawnPiece();gameboard[i][6].setPosition(i, 6);gameboard[i][6].setPlayer(1);
-//			}
+			for(int i=0;i<9;i++) {
+				gameboard[i][2] = new pawnPiece();gameboard[i][2].setPosition(i, 2);gameboard[i][2].setPlayer(-1);
+				gameboard[i][6] = new pawnPiece();gameboard[i][6].setPosition(i, 6);gameboard[i][6].setPlayer(1);
+			}
 			gameboard[4][0]=new kingPiece();gameboard[4][0].setPlayer(-1);gameboard[4][0].setPosition(4, 0);
 			gameboard[4][8]=new kingPiece();gameboard[4][8].setPlayer(1);gameboard[4][8].setPosition(4, 8);
 			
