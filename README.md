@@ -18,10 +18,4 @@ so once they reach the last tile if they dont promote they will have no legal mo
 
 
 
-There might be memory leak in GameBoard or PlayerHand or both due to circular dependency
 
-or just badly implemented code.
-
-I will be really glad if someone can point out the bad design decisions, bugs and other problems.
-
-Thanks for taking the time.
